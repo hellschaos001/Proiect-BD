@@ -12,7 +12,7 @@
 
 2.1.Ilustrare diagramă
 
-> 2.2.Descrierea entităților, atributelor, cheilor, relațiilor și a cardinalităților
+2.2.Descrierea entităților, atributelor, cheilor, relațiilor și a cardinalităților
 
 3.Diagrama conceptuală
 
@@ -27,6 +27,8 @@
 4.1.Crearea tabelelor
 
 4.1.Inserarea datelor
+
+---
 
 ### 1.Prezentarea bazei de date
 
@@ -48,6 +50,8 @@ diferite vehicule și un lanț de restaurante care pot prepara diferite
 produse. Totodată informațiile clienților, comenzilor și a
 restaurantelor sunt reținute și sunt procesate cu ajutor unei baze de
 date.
+
+---
 
 #### 1.2.Reguli generale
 
@@ -79,11 +83,15 @@ Baza de date are următoarele particularități:
 -   Restaurantele trebuie să producă cel puțin un produs specific
     fiecăruia.
 
+---
+
 ### 2.Diagrama entitate-relatie
 
 #### 2.1.Ilustratie diagrama
 
 ![](media/image1.png)
+
+---
 
 #### 2.2.Descrierea entităților, atributelor, cheilor, relațiilor și a
 cardinalităților
@@ -149,11 +157,15 @@ Tabelul RESTAURANTE conține 3 câmpuri. ID\_RESTAURANT reprezintă id-ul
 unic al unui restaurant și cheia primară a restaurantului. Entitățile
 nume și adresă reprezintă datele fiecărui restaurant.
 
+---
+
 ### 3.Diagramă conceptuală
 
 #### 3.1.Ilustrare diagramă
 
 ![](media/image2.jpg)
+
+---
 
 #### 3.2.Descriere constrângeri de integritate
 
@@ -401,6 +413,8 @@ Tabelul RESTAURANTE:
 
 -   ID\_RESTAURANT --int
 
+---
+
 #### 3.3.Schemele relaționale
 
 -   Tabelul CLIENTI are cheia străină ID\_CUPON care face legătura cu
@@ -431,6 +445,8 @@ Tabelul RESTAURANTE:
     restaurante este ștearsă, atunci produsele ce erau preparate de
     restaurantul respectiv vor fi șterse, orice produs trebuie preparat
     de un restaurant.
+
+---
 
 ### 4.Implementarea bazei de date
 
@@ -623,6 +639,8 @@ Tabelul RESTAURANTE:
  CASCADE
 
  );
+ 
+ ---
 
  #### 4.2.Inserarea datelor
 
@@ -875,3 +893,5 @@ Tabelul RESTAURANTE:
  INSERT INTO PRODUSE\_COMANDA VALUES(12,3);
 
  COMMIT;
+ 
+ ---
