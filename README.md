@@ -30,9 +30,9 @@
 
 ---
 
-### 1.Prezentarea bazei de date
+### 1. Prezentarea bazei de date
 
-#### 1.1.Prezentarea modelului din lumea reala
+#### 	1.1. Prezentarea modelului din lumea reala
 
 Principala activitate a firmei de curierat este de a asigura transportul
 comenzii de la un restaurant la un client prin intermediul curierilor.
@@ -53,7 +53,7 @@ date.
 
 ---
 
-#### 1.2.Reguli generale
+#### 	1.2. Reguli generale
 
 Baza de date are următoarele particularități:
 
@@ -85,15 +85,15 @@ Baza de date are următoarele particularități:
 
 ---
 
-### 2.Diagrama entitate-relatie
+### 2. Diagrama entitate-relatie
 
-#### 2.1.Ilustratie diagrama
+#### 	2.1. Ilustratie diagrama
 
 ![](media/image1.png)
 
 ---
 
-#### 2.2.Descrierea entităților, atributelor, cheilor, relațiilor și a cardinalităților
+#### 2.2. Descrierea entităților, atributelor, cheilor, relațiilor și a cardinalităților
 
 Tabelul COMENZI este entitatea în jurul căreia este creată baza de date
 și conține 7 câmpuri. Id-ul comenzii reprezintă cheia primară a
@@ -158,15 +158,15 @@ nume și adresă reprezintă datele fiecărui restaurant.
 
 ---
 
-### 3.Diagramă conceptuală
+### 3. Diagramă conceptuală
 
-#### 3.1.Ilustrare diagramă
+#### 	3.1. Ilustrare diagramă
 
 ![](media/image2.jpg)
 
 ---
 
-#### 3.2.Descriere constrângeri de integritate
+#### 	3.2. Descriere constrângeri de integritate
 
 Tabelul VEHICULE:
 
@@ -414,7 +414,7 @@ Tabelul RESTAURANTE:
 
 ---
 
-#### 3.3.Schemele relaționale
+#### 	3.3. Schemele relaționale
 
 -   Tabelul CLIENTI are cheia străină ID\_CUPON care face legătura cu
     tabelul CUPON\_REDUCERE. Dacă înregistrările din tabelul
@@ -447,9 +447,9 @@ Tabelul RESTAURANTE:
 
 ---
 
-### 4.Implementarea bazei de date
+### 4. Implementarea bazei de date
 
-#### 4.1.Crearea tabelelor
+#### 	4.1. Crearea tabelelor
 
  CREATE TABLE CURIERI
 
@@ -641,7 +641,7 @@ Tabelul RESTAURANTE:
  
  ---
 
- #### 4.2.Inserarea datelor
+ #### 	4.2. Inserarea datelor
 
  INSERT INTO RESTAURANTE VALUES(1,\'Aurora Mall\',\'KFC\');
 
