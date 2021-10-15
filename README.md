@@ -4,29 +4,29 @@
 
 1.Prezentarea bazei
 
-1.1. Prezentarea modelului din lumea reală
+	1.1. Prezentarea modelului din lumea reală
 
-1.2.Reguli generale
+	1.2.Reguli generale
 
 2.Diagrama entitate-relație
 
-2.1.Ilustrare diagramă
+	2.1.Ilustrare diagramă
 
-2.2.Descrierea entităților, atributelor, cheilor, relațiilor și a cardinalităților
+	2.2.Descrierea entităților, atributelor, cheilor, relațiilor și a cardinalităților
 
 3.Diagrama conceptuală
 
-3.1.Ilustrare diagramă
+	3.1.Ilustrare diagramă
 
-3.2.Descriere constrângeri de integritate
+	3.2.Descriere constrângeri de integritate
 
-3.3.Schemele relaționale
+	3.3.Schemele relaționale
 
 4.Implementarea bazei de date
 
-4.1.Crearea tabelelor
+	4.1.Crearea tabelelor
 
-4.1.Inserarea datelor
+	4.1.Inserarea datelor
 
 ---
 
