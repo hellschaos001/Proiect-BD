@@ -93,8 +93,7 @@ Baza de date are următoarele particularități:
 
 ---
 
-#### 2.2.Descrierea entităților, atributelor, cheilor, relațiilor și a
-cardinalităților
+#### 2.2.Descrierea entităților, atributelor, cheilor, relațiilor și a cardinalităților
 
 Tabelul COMENZI este entitatea în jurul căreia este creată baza de date
 și conține 7 câmpuri. Id-ul comenzii reprezintă cheia primară a
@@ -893,5 +892,3 @@ Tabelul RESTAURANTE:
  INSERT INTO PRODUSE\_COMANDA VALUES(12,3);
 
  COMMIT;
- 
- ---
